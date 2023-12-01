@@ -1,0 +1,54 @@
+body {
+    background-image: url(Img/4.jpg);
+    margin: 20px 10px ;
+    color: #d0d0d0;
+    text-align: center;
+  }
+
+/* home */
+
+b{
+    color: #0dcaf0b2;
+}
+
+nav img{
+    width: 100px;
+    border-radius: 60px;
+  } 
+
+.container button{
+  border: 1px solid transparent;
+  border-radius: 15px;
+} 
+
+/* skills */
+
+.container .card {
+    background-color: #ffffff07
+  }
+
+  .container .card:hover {
+    background-color: #ffffff53;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: .4s ease-in;
+  }
+
+  .container #card0 img{
+    width: 40px;
+  }
+
+  /* project css */
+
+.card-img-l, .card-img-m, .card-img-r{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  .container #card1:hover{
+    transform: translate(8px);
+  }
